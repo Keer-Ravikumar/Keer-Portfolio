@@ -1,6 +1,6 @@
-import BannerImage from "../Assets/Images/Banner.png";
 import MyImage from "../Assets/Images/Me.png";
 import Button from "./Button";
+import Typewriting from "./Typewriting";
 
 function Banner(){
 
@@ -8,12 +8,12 @@ function Banner(){
         <div className="Banner-Div">
             <div className="left-side">
                 <div className="Title">
-                    <h4>I'm</h4>
+                    <h5>I'm</h5>
                     <h2>Keerthana Ravikumar</h2>
-                    <h3>Full-Stack Developer</h3>
+                    <Typewriting />
                 </div>
                 <div className="button-group">
-                    <Button name = "Download Resume"/>
+                    <Button name = "View Resume"/>
                     <Button name = "Contact Me" />
                 </div>
             </div>
