@@ -6,7 +6,7 @@ function Typewriting() {
         {' '}
       <span style={{ color: '#e8e6e3' }}>
         <Typewriter
-          words={['Full-Stack Developer', 'Backend Developer', 'Frontend Developer', 'Java Developer']}
+          words={['Full-Stack Developer', 'Backend Developer', 'Java Developer',  'Frontend Developer']}
           loop={true}
           cursor
           cursorStyle="_"
