@@ -91,6 +91,10 @@
   }
 }
 
+.nav-links li:hover{
+    color: #ae1c2d;
+}
+
 .Banner-Div{
     width: 100vw;
     height: 85vh;
