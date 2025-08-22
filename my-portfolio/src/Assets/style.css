@@ -102,7 +102,8 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 1.75rem;
-    padding-bottom: 0
+    padding-bottom: 0;
+    margin-bottom: 1rem;
     
 }
 
@@ -147,10 +148,81 @@
     border: 0.1rem solid #e8e6e3;
 }
 
+h4.Title-Heading{
+    text-transform: uppercase;
+    color: #23222283;
+    font-size: 1.1rem;
+    margin-bottom: 1.75rem;
+    padding-left: 0;
+
+}
+
+h4.Title-Heading::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 0.2rem;
+    background: #ae1c2d9d;
+    margin: 0.25rem;
+    padding: 0.05rem;
+    padding-right: 1.5rem;
+}
+
+.AboutMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    padding: 0.75rem;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.AboutMe .Image-Section img{
+    border-radius: 50%;
+    border: 0.5rem solid #ae1c2d9d;
+}
+
+.AboutMe .Content-Section{
+    width: 45vw;
+    justify-self: center;
+}
+
+.AboutMe .Content-Section h4{
+    margin-bottom: 1rem;
+}
+
+.AboutMe .Content-Section h5{
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.AboutMe .Content-Section .para-content{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.85rem;
+}
+
+.font-weight{
+    font-weight: bold;
+    font-size: 112%;
+}
 
 
 
 
+@media (max-width: 1025px){
+
+    .AboutMe .Image-Section img{
+        width: 23rem;
+    }
+
+    .AboutMe .Content-Section .para-content{
+        font-size: 92%;
+    }
+}
 
 @media (max-width: 980px) {
     *{
@@ -163,7 +235,11 @@
 
     .hamburger{
         display: flex;
+        width: 3.5rem;
+        gap: 0.75rem;
     }
+
+
 }
 
 @media (max-width: 913px) {
@@ -185,12 +261,23 @@
         height: 2.75rem;
     }
 
-    .hamburger{
-        width: 3.5rem;
-        /* height: 2rem; */
-        gap: 0.75rem;
+    .AboutMe{
+        flex-direction: column;
     }
 
-    .bar{}
+    .AboutMe .Image-Section img{
+        border-radius: 0;
+        margin-bottom: 3rem;
+        margin-top: 0;
+        padding-top: 0;
+        border: none;
+    }
+
+    .AboutMe .Content-Section{
+        width: 85vw;
+    }
+
+
+
 
 }

@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Banner from "./Banner";
+import AboutMe from "./AboutMe";
 
 function Portfolio(){
 
@@ -7,6 +8,7 @@ function Portfolio(){
         <>
             <Navbar />
             <Banner />
+            <AboutMe />
         </>
     )
 }
