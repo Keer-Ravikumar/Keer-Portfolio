@@ -9,6 +9,11 @@
     font-family: "Montserrat", sans-serif;
 }
 
+body{
+    background-color: #181a1b;
+    color: #bfb9b1;
+}
+
 .navBar{
     display: flex;
     flex-direction: row;
@@ -154,7 +159,6 @@
 
 h4.Title-Heading{
     text-transform: uppercase;
-    color: #23222283;
     font-size: 1.1rem;
     margin-bottom: 1.75rem;
     padding-left: 0;

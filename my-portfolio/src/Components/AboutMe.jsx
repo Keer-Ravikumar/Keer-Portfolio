@@ -1,4 +1,5 @@
 import Headers from "./Headers";
+import SubHeading from "./SubHeading";
 import Aboutme from "../Assets/Images/Aboutme.png";
 import React, { useEffect } from 'react';
 import AOS from 'aos';
@@ -21,7 +22,7 @@ function AboutMe(){
 
             <div className="Content-Section" data-aos="fade-up" >
                 <Headers name="Learn About me"/>
-                <h5>Powered by Java, peanut butter, and curiosity.</h5>
+                <SubHeading name="Powered by Java, peanut butter, and curiosity." />
                 <p className="para-content"> 
                     Contrary to popular belief, Software Engineers don’t just sit in dark rooms talking to computers all day—I talk to people too. <span className="font-weight">I’m Keerthana, a Backend Developer</span> who fell in love with clean <span className="font-weight">APIs and efficient systems</span> (and sometimes with well-named variables, though that’s rare). My journey began with <span className="font-weight">Java and Spring Boot</span>, and ever since, I’ve been building things that work so smoothly they almost look like magic—except it’s just a lot of debugging and caffeine.
                 </p>
