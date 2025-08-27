@@ -1,7 +1,7 @@
 function SubHeading(props){
 
     return (
-        <h5>{props.name}</h5>
+        <h2 className="subheading" >{props.name}</h2>
     )
 }
 

@@ -60,10 +60,10 @@ body{
 }
 
 .bar {
-  width: 90%;
-  height: 80%;
-  background-color: white;
-  border-radius: 0.1rem;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border-radius: 0.1rem;
 }
 
 .nav-links{
@@ -86,14 +86,14 @@ body{
 } 
 
 @keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .nav-links li:hover{
@@ -159,10 +159,11 @@ body{
 
 h4.Title-Heading{
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.75rem;
     padding-left: 0;
-
+    text-align: center;
+    color: #e6e1dc;
 }
 
 h4.Title-Heading::before{
@@ -197,14 +198,21 @@ h4.Title-Heading::before{
     justify-self: center;
 }
 
-.AboutMe .Content-Section h4{
+.AboutMe .Content-Section .Title-Heading{
     margin-bottom: 1rem;
+    text-align: left;
 }
 
-.AboutMe .Content-Section h5{
+.subheading{
     text-transform: capitalize;
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
+    color: #e6e1dc;
+}
+
+.AboutMe .Content-Section .subheading{
+    text-align: left;
 }
 
 .AboutMe .Content-Section .para-content{
@@ -220,6 +228,119 @@ h4.Title-Heading::before{
 
 .font-weight:hover{
     color: #ae1c2d;
+}
+
+.timeline-section {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 4rem;
+    position: relative;
+    /* background-color: #292929; */
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 70vw;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 0.1rem;
+    background: #ae1c2d;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.timeline-item.left {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-item .content {
+    background-color: #141414;
+    padding: 1.5rem;
+    border-left: 0.3rem solid #2e2e2e;
+    position: relative;
+}
+
+.timeline-item.left .content {
+    border-left: none;
+    border-right: 0.3rem solid #2e2e2e;
+}
+
+.timeline-item .Experience-title {
+    margin: 0 0 0.1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.timeline-item .Job-Location {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-style: italic;
+    color: #bbb;
+    font-size: 0.9rem;
+}
+
+.timeline-item .Job-Description {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #d6d3cc;
+    line-height: 1.15rem;
+}
+
+.timeline-item .year {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background: #0f0f0f; */
+    color: #ae1c2d;
+    font-weight: bold;
+    font-size: 1.01rem;
+    padding: 0.2rem 0.4rem;
+}
+
+.timeline-item.left .year {
+    right: -12rem;
+}
+
+.timeline-item.right .year {
+    left: -12rem;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    background-color: #ae1c2d;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-item.right::after {
+    left: 0%;
 }
 
 
