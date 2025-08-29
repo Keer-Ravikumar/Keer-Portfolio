@@ -8,6 +8,7 @@ function JobItems(props){
     return (
         <div className={`timeline-item ${props.align}`} data-aos={props.animation}>
             <div className="content">
+                <h5 className="responsive-year">{props.year}</h5>
                 <ExperienceTitle name={props.title} />
                 <JobLocation location={props.location} />
                 <JobDesc description={props.description} />
