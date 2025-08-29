@@ -364,6 +364,31 @@ h4.Title-Heading::before{
     display: none;
 }
 
+.MoreAboutMe{
+    background-color: #ae1c2d;
+    margin: 0.75rem;
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MoreAboutMe h3{
+    text-align: center;
+    line-height: 1.2rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.MoreAboutMe p{
+    width: 50%;
+    font-size: 1.15rem;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
 
 
 @media (max-width: 1025px){
