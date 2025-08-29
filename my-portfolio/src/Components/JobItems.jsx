@@ -6,7 +6,7 @@ import JobYear from "./JobYear";
 function JobItems(props){
 
     return (
-        <div className={`timeline-item ${props.class}`}>
+        <div className={`timeline-item ${props.align}`} data-aos={props.animation}>
             <div className="content">
                 <ExperienceTitle name={props.title} />
                 <JobLocation location={props.location} />

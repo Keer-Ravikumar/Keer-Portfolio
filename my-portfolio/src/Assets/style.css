@@ -242,7 +242,7 @@ h4.Title-Heading::before{
     position: relative;
     margin: 0 auto;
     padding: 0;
-    width: 70vw;
+    width: 80vw;
 }
 
 .timeline::before {
@@ -279,6 +279,23 @@ h4.Title-Heading::before{
     border-left: 0.3rem solid #2e2e2e;
     position: relative;
 }
+.timeline-item .content::before{
+    content: '';
+    position: absolute;
+    top: 25%;
+    right: 100%;
+    width: 1rem;
+    height: 1rem;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(27.5deg);
+    background-color: #2e2e2e;
+    z-index: 1;
+}
+
+.timeline-item.left .content::before{
+    left: 100%;
+    transform: rotate(-27.5deg);
+}
 
 .timeline-item.left .content {
     border-left: none;
@@ -294,7 +311,7 @@ h4.Title-Heading::before{
 
 .timeline-item .Job-Location {
     display: block;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
     font-style: italic;
     color: #bbb;
     font-size: 0.9rem;
@@ -309,9 +326,8 @@ h4.Title-Heading::before{
 
 .timeline-item .year {
     position: absolute;
-    top: 50%;
+    top: 32%;
     transform: translateY(-50%);
-    /* background: #0f0f0f; */
     color: #ae1c2d;
     font-weight: bold;
     font-size: 1.01rem;
@@ -329,7 +345,7 @@ h4.Title-Heading::before{
 .timeline-item::after {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 32%;
     left: 100%;
     transform: translate(-50%, -50%);
     width: 1rem;
