@@ -1,9 +1,9 @@
-import Portfolio from "./Components/Portfolio";
+import Website from "./Components/Website";
 import "./Assets/style.css";
 
 function App() {
   return (
-    <Portfolio />
+    <Website />
   );
 }
 

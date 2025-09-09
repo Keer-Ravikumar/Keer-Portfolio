@@ -1,7 +1,6 @@
 import Headers from "./Headers";
 import SubHeading from "./SubHeading";
 import JobItems from "./JobItems";
-import AOS from 'aos';
 
 function Experience(){
 

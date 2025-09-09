@@ -159,8 +159,8 @@ body{
 
 h4.Title-Heading{
     text-transform: uppercase;
-    font-size: 1.2rem;
-    margin-bottom: 1.75rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
     padding-left: 0;
     text-align: center;
     color: #e6e1dc;
@@ -366,7 +366,7 @@ h4.Title-Heading::before{
 
 .MoreAboutMe{
     background-color: #ae1c2d;
-    margin: 0.75rem;
+    /* margin: 0.75rem; */
     padding: 3.5rem;
     display: flex;
     flex-direction: column;
@@ -387,6 +387,67 @@ h4.Title-Heading::before{
     text-align: center;
     line-height: 2rem;
     margin-bottom: 3rem;
+}
+
+.Portfolio-section{
+    padding: 0.75rem;
+    margin: 1.5rem;
+}
+
+.Portfolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 90vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.Portfolio-Item{
+    margin: 0.75rem;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.Portfolio-Item .flex-title{
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;;
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+    width: 80%;
+
+}
+
+.Portfolio-Item .flex-title p{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Portfolio-Item .flex-title button{
+    margin: auto 0;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #ae1c2d;
+    color: white;
+}
+
+.Portfolio-Item .flex-title button:hover{
+    background-color: black;
+    color: #ae1c2d;
+    border: 0.1rem solid #ae1c2d;
+}
+
+.Portfolio-Item img{
+    width: 25rem;
+    height: 19rem;
+    text-align: center;
+    padding: 1rem;
 }
 
 
@@ -498,4 +559,42 @@ h4.Title-Heading::before{
     .timeline-item::after{
         top: 50%;
     }
+
+    .MoreAboutMe p{
+    width: 80%;
+}
+
+}
+
+@media (max-width: 715px){
+    .MoreAboutMe p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+
+
+    .Portfolio-Item img {
+        width: 18rem;
+        height: 15rem;
+        text-align: center;
+        padding: 0.75rem;
+    }
+
+    .Portfolio-Item .flex-title{
+        padding: 0.5rem 0.75rem;
+    }
+
+    .Portfolio-Item .flex-title p{
+        font-size: 0.75rem;
+    }
+
+    .Portfolio-Item .flex-title button{
+        margin: auto 0;
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+
 }
