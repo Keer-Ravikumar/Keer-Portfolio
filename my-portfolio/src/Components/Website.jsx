@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import MoreAboutMe from "./MoreAboutMe";
 import MyPortfolio from "./MyPortfolio";
+import SkillSection from "./SkillSection";
 
 function Website(){
 
@@ -15,6 +16,7 @@ function Website(){
             <Experience />
             <MoreAboutMe />
             <MyPortfolio />
+            <SkillSection />
         </>
     )
 }
