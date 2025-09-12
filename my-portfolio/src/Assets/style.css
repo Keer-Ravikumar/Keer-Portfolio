@@ -691,6 +691,10 @@ h4.Title-Heading::before{
 
 @media (max-width: 550px) {
 
+    *{
+        font-size: 95%;
+    }
+
 
     .Portfolio-Item img {
         width: 22rem;

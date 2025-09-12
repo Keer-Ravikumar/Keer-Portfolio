@@ -21,6 +21,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="Encryptus"
                     animation="fade-up"
+                    link="https://github.com/ManojAvarur/Cloud-Encryption"
                 />
 
                 <PortfolioItem
@@ -28,6 +29,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="Alufabs Industries"
                     animation="fade-up"
+                    link="#"
                 />
 
                 <PortfolioItem
@@ -35,6 +37,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="Unoriginal Thoughts"
                     animation="fade-up"
+                    link= "https://github.com/ManojAvarur/Un-Original-Thoughts"
                 />
 
 
@@ -43,6 +46,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="FaceID Attendance System"
                     animation="fade-up"
+                    link="https://github.com/Keer-Ravikumar/FRAS"
                 />
 
                 <PortfolioItem
@@ -50,6 +54,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="Farmato"
                     animation="fade-up"
+                    link="https://github.com/ManojAvarur/Engineering-Final-Year-Project"
                 />
 
 
