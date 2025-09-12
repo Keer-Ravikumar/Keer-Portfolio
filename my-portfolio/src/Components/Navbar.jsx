@@ -28,12 +28,12 @@ function Navbar(){
             {isOpen &&
                         <div>
                             <ul className="nav-links">
-                                <li>Home</li>
-                                <li>About Me</li>
-                                <li>Skills</li>
-                                <li>Education</li>
-                                <li>Experience</li>
-                                <li>Contact Me</li>
+                                <a href='#home' ><li>Home</li></a>
+                                <a href='#aboutme'><li>About Me</li></a>
+                                <a href='#skills'><li>Skills</li></a>
+                                <a href='#education'><li>Education</li></a>
+                                <a href='#experience'><li>Experience</li></a>
+                                <a href='#contact'><li>Contact Me</li></a>
                             </ul>
                         </div>
             }
