@@ -6,7 +6,7 @@ function Experience(){
 
 
     return (
-        <div className="timeline-section">
+        <div className="timeline-section" id="education">
             <Headers name="My Resume"/>
             <SubHeading name="Education and Working Experience" />
 

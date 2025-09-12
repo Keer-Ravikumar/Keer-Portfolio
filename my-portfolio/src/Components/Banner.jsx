@@ -5,7 +5,8 @@ import Typewriting from "./Typewriting";
 function Banner(){
 
     return (
-        <div className="Banner-Div">
+        
+        <div className="Banner-Div" id="home">
             <div className="left-side">
                 <div className="Title">
                     <h5>I'm</h5>

@@ -9,9 +9,17 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #181a1b;
     color: #bfb9b1;
+}
+
+a{
+    color: white;
 }
 
 .navBar{
@@ -21,6 +29,10 @@ body{
     justify-content: space-between;
     background-color: #181a1b;
     color: #e8e6e3;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
 }
 
 .nav-group{
@@ -112,7 +124,7 @@ body{
     justify-content: space-around;
     padding: 1.75rem;
     padding-bottom: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     
 }
 

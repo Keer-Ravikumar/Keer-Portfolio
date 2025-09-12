@@ -3,11 +3,11 @@ function Footer(){
     const year = new Date().getFullYear();
 
     return (
-        <div className="Footer">
+        <div className="Footer" id="contact">
             <p className="title">Keerthana Ravikumar</p>
             <p className="details">+1 602 690 5395 | keerr.ravikumar@gmail.com </p>
             <div className="icon-group">
-                <a href="https://wa.me/6026905395" target="_blank" rel="noreferrer">
+                <a href="https://wa.me/+16026905395" target="_blank" rel="noreferrer">
                 <i class="fab fa-whatsapp"></i>
                 </a>
                 <a href="mailto:keerr.ravikumar@gmail.com">

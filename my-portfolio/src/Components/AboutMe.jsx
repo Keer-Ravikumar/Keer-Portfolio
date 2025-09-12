@@ -15,7 +15,7 @@ function AboutMe(){
 
     return (
 
-        <div className="AboutMe" >
+        <div className="AboutMe" id="aboutme">
             <div className="Image-Section" data-aos="fade-up">
                 <img src={Aboutme} alt="This is also me again!" />
             </div>

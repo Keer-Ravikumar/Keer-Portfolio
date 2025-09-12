@@ -11,7 +11,7 @@ import Alufabs from "../Assets/Images/AluFab.png";
 function MyPortfolio(){
 
     return( 
-        <div className="Portfolio-section">
+        <div className="Portfolio-section" id="experience">
             <Headers name="My Portfolio" />
             <SubHeading name="A few pieces of my work" />
 

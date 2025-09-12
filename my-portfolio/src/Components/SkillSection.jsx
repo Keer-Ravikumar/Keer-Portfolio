@@ -21,7 +21,7 @@ import Springboot from "../Assets/Images/Springboot.png";
 function SkillSection(){
 
     return (
-        <div className="SkillSection">
+        <div className="SkillSection" id="skills">
             <Headers name="My Skill Set"/>
             <SubHeading name="What Do I Actually Do?" />
 
