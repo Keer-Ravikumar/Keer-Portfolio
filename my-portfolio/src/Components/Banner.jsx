@@ -14,8 +14,12 @@ function Banner(){
                     <Typewriting />
                 </div>
                 <div className="button-group">
-                    <Button name = "View Resume"/>
-                    <Button name = "Contact Me" />
+                    <a href="../../Resume.pdf" download="Keerthana_Ravikumar_Resume.pdf">
+                        <Button name = "View Resume"/>
+                    </a>
+                    <a href="#contact">
+                        <Button name = "Contact Me" />
+                    </a>
                 </div>
             </div>
 
