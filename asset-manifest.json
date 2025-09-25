@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.122a975d.css",
+    "main.js": "/static/js/main.de0351a4.js",
+    "static/media/Banner.png": "/static/media/Banner.c3792aa0dc7fb0a363d9.png",
+    "static/media/HomeAuto.png": "/static/media/HomeAuto.f1b8b943f27b7bee8592.png",
+    "static/media/Me.png": "/static/media/Me.97f83c9aed0c589181c4.png",
+    "static/media/PHP.png": "/static/media/PHP.ae7087780d0463b45cfc.png",
+    "static/media/React.png": "/static/media/React.d977c5eccfc458443513.png",
+    "static/media/Aboutme.png": "/static/media/Aboutme.4062014935c0b3665096.png",
+    "static/media/Java.png": "/static/media/Java.f29fc8b3a49e3f5e5aca.png",
+    "static/media/UnOriginalTHoughts.jpg": "/static/media/UnOriginalTHoughts.947afad70c142cfdf605.jpg",
+    "static/media/Python.png": "/static/media/Python.67f222d81cb1eb8634f4.png",
+    "static/media/CSS.png": "/static/media/CSS.bcf2c3367cb7472483db.png",
+    "static/media/Dashboard.png": "/static/media/Dashboard.2bd6d4ca7b23754e1cd4.png",
+    "static/media/Encryptus.png": "/static/media/Encryptus.5b9bb86dbd6121310d9a.png",
+    "static/media/AWS.png": "/static/media/AWS.88e8b25590a3368a8c74.png",
+    "static/media/NodeJS.png": "/static/media/NodeJS.e00f6fd08030420fd1f4.png",
+    "static/media/FRAS.png": "/static/media/FRAS.3ce57a0df09229c4c407.png",
+    "static/media/JS.png": "/static/media/JS.5a15a578fcd75bac768e.png",
+    "static/media/PostgreSQL.png": "/static/media/PostgreSQL.907f0a6d7dae3cd371a4.png",
+    "static/media/AluFab.png": "/static/media/AluFab.29e5e453c67f9f3d809e.png",
+    "static/media/MongoDB.png": "/static/media/MongoDB.59c245526742ab859798.png",
+    "static/media/Github.png": "/static/media/Github.4d04324eb317b0b13794.png",
+    "static/media/HTML.png": "/static/media/HTML.5bcd7b8c1e61af1d5834.png",
+    "static/media/Logo1.png": "/static/media/Logo1.393f48a32aef12f812c0.png",
+    "static/media/MySQL.png": "/static/media/MySQL.d2afe40e33121e010ab0.png",
+    "index.html": "/index.html",
+    "main.122a975d.css.map": "/static/css/main.122a975d.css.map",
+    "main.de0351a4.js.map": "/static/js/main.de0351a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.122a975d.css",
+    "static/js/main.de0351a4.js"
+  ]
+}
