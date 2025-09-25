@@ -6,6 +6,7 @@ import UnOriginalThoughts from "../Assets/Images/UnOriginalTHoughts.jpg";
 import HomeAuto from "../Assets/Images/HomeAuto.png";
 import FRAS from "../Assets/Images/FRAS.png";
 import Alufabs from "../Assets/Images/AluFab.png";
+import Car from "../Assets/Images/Dashboard.png";
 
 
 function MyPortfolio(){
@@ -55,6 +56,14 @@ function MyPortfolio(){
                     projectTitle="Farmato"
                     animation="fade-up"
                     link="https://github.com/ManojAvarur/Engineering-Final-Year-Project"
+                />
+
+                <PortfolioItem
+                    imagePath={Car}
+                    altname="Project Image"
+                    projectTitle="DashBoard Simulator"
+                    animation="fade-up"
+                    link="https://github.com/manojam46/CAN-Data-Parsing"
                 />
 
 
