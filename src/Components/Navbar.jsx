@@ -28,12 +28,12 @@ function Navbar(){
             {isOpen &&
                         <div>
                             <ul className="nav-links">
-                                <a href='#home' ><li>Home</li></a>
-                                <a href='#aboutme'><li>About Me</li></a>
-                                <a href='#skills'><li>Skills</li></a>
-                                <a href='#education'><li>Education</li></a>
-                                <a href='#experience'><li>Experience</li></a>
-                                <a href='#contact'><li>Contact Me</li></a>
+                                <a href='#home' onClick={handleToggle}><li>Home</li></a>
+                                <a href='#aboutme' onClick={handleToggle}><li>About Me</li></a>
+                                <a href='#skills' onClick={handleToggle}><li>Skills</li></a>
+                                <a href='#education' onClick={handleToggle}><li>Education</li></a>
+                                <a href='#experience' onClick={handleToggle}><li>Experience</li></a>
+                                <a href='#contact' onClick={handleToggle}><li>Contact Me</li></a>
                             </ul>
                         </div>
             }
