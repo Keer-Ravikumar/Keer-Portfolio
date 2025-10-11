@@ -22,7 +22,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="Encryptus"
                     animation="fade-up"
-                    link="https://github.com/ManojAvarur/Cloud-Encryption"
+                    link="https://encryptus.ezyro.com/?i=1"
                 />
 
                 <PortfolioItem
@@ -55,7 +55,7 @@ function MyPortfolio(){
                     altname="Project Image"
                     projectTitle="Farmato"
                     animation="fade-up"
-                    link="https://github.com/ManojAvarur/Engineering-Final-Year-Project"
+                    link="https://iotproject.coolpage.biz/home_automation"
                 />
 
                 <PortfolioItem

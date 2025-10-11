@@ -55,6 +55,24 @@ function Experience(){
                     year="Jan 2024 - Dec 2025"
                     animation="fade-left"
                 />
+
+                <JobItems data-aos="fade-right"
+                    align="right"
+                    title="Student Web Developer"
+                    location="Spitz Mediterranean Street Food | Tempe, Arizona"
+                    description="Collaborated with cross-functional teams to develop responsive, high-performance web apps using React.js, optimizing UI, load times, and cross-browser compatibility. Enhanced code quality with testing and version control, achieving faster delivery and reduced defects."
+                    year="Jan 2025 - Aug 2025"
+                    animation="fade-right"
+                />
+
+                <JobItems data-aos="fade-right"
+                    align="right"
+                    title="Full Stack Developer"
+                    location="Velocified | Ontario, Canada"
+                    description="As a Full Stack Developer at Velocified, I design and build robust web applications, leveraging both front-end and back-end technologies to deliver seamless user experiences. I collaborate with teams to ensure high performance, scalability, and efficient project execution."
+                    year="Aug 2025 - Present"
+                    animation="fade-right"
+                />
             </div>
         </div>
     )
